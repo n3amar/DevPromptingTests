@@ -136,13 +136,26 @@ There are no tests. After completing Challenge 1, the service layer should be te
 
 ---
 
+## Final Step — LLM Retrospective
+
+Before submitting, complete the retrospective in `RETROSPECTIVE_PROMPT.md`.
+
+1. Open the LLM chat you used during the assessment — **do not start a new conversation**
+2. Copy the prompt from `RETROSPECTIVE_PROMPT.md` and paste it at the end of your session
+3. Save the output as `RETROSPECTIVE.md` in the root of your fork
+4. Commit and push it with your code changes
+
+This is a required part of the submission. The retrospective is how we evaluate your AI tool usage — not just whether the code works.
+
+---
+
 ## Submitting Your Work
 
-Push your changes to a branch on this repo (or a fork) and share the link. If you worked on a fork, make sure it's public.
+Push your changes to a fork of this repo and share the link. Make sure the fork is public and includes your `RETROSPECTIVE.md`.
 
 We'll review:
 - Whether your code is correct and fits the existing patterns
-- How well you used your LLM assistant (prompts, context given, verification of output)
 - Code quality — not just "does it compile"
+- Your `RETROSPECTIVE.md` — how well you used your LLM assistant, what context you gave it, and how critically you evaluated its output
 
 There's no time limit, but most candidates complete this in 2–3 hours.
