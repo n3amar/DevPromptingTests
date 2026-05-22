@@ -144,7 +144,7 @@ Before submitting, complete the retrospective in `RETROSPECTIVE_PROMPT.md`.
 3. Save the output as `RETROSPECTIVE.md` in the root of your fork
 4. Commit and push it with your code changes
 
-The retrospective output also includes two personal artifacts generated from your session — a set of CLAUDE.md rules and a prompting checklist skill tailored to how you specifically worked today. These are yours to keep and use going forward. They are not assessed, but they are a useful signal of self-awareness if you choose to include them.
+The retrospective output also includes two personal artifacts generated from your session — a set of LLM instruction rules and a prompting checklist, both tailored to how you specifically worked today. These are tool-agnostic: paste them into your CLAUDE.md, GitHub Copilot instructions file, system prompt, or wherever your setup reads persistent guidance from. They are yours to keep. They are not assessed, but including them is a signal of self-awareness.
 
 ---
 
