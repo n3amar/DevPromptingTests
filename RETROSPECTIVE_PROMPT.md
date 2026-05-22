@@ -25,18 +25,22 @@ For each challenge I worked on, write a short entry covering:
 - Whether I verified your output before accepting it (e.g. ran the code, tested the endpoint, read the diff)
 - One specific example of a prompt I gave — was it well-scoped with good context, or vague?
 
+## Initiative and Depth
+For each challenge, note whether I stopped at the minimum the task asked for, or whether I questioned the solution further — for example by asking whether the output was complete, robust, or production-ready. Be specific: quote or describe moments where I pushed further, and moments where I accepted the first working result without asking whether it was the best result.
+
 ## Prompting Patterns
 Summarize patterns you noticed across the session:
 - Did I give you enough context (relevant files, error messages, expected behaviour)?
 - Did I ask follow-up questions or course-correct when something was off?
 - Did I tend to accept output at face value, or did I push back?
-- Were my prompts specific ("fix the LINQ query in GetByProject that returns the wrong tasks") or generic ("fix the bug")?
+- Were my prompts specific or generic?
+- Did I ever ask you to evaluate or critique something, rather than just produce it?
 
 ## Where I Used You Well
-2-3 specific examples from this session where I prompted effectively or caught an issue with your output.
+2-3 specific examples from this session where I prompted effectively, pushed for a better answer, or caught an issue with your output.
 
 ## Where I Could Have Done Better
-2-3 specific examples where my prompting was weak, I gave insufficient context, or I accepted output I should have questioned.
+2-3 specific examples where my prompting was weak, I gave insufficient context, accepted output I should have questioned, or stopped short of a more complete solution.
 
 ## LLM Utilization Score
 Rate my overall LLM usage on a scale of 1-5 for each of the following, with a one-sentence justification:
@@ -44,6 +48,7 @@ Rate my overall LLM usage on a scale of 1-5 for each of the following, with a on
 - **Verification** — how consistently I checked your output before moving on
 - **Iteration** — how effectively I followed up when something wasn't right
 - **Critical thinking** — how often I questioned or pushed back on your suggestions
+- **Initiative** — how often I went beyond the stated requirement to ask whether the solution was complete or could be improved
 
 Be honest. The reviewer reading this retrospective is evaluating how well I work with AI tools, not just whether the code works.
 ```
