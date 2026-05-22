@@ -20,7 +20,7 @@ cd DevPromptingTests/DevTestRepo.Api
 dotnet run
 ```
 
-The API starts on `https://localhost:7000` (or the port shown in your terminal). The SQLite database is created and seeded automatically on first run — no setup required.
+The API starts on `http://localhost:5226`. The SQLite database is created and seeded automatically on first run — no setup required.
 
 **Run the tests**
 

@@ -16,6 +16,5 @@ using (var scope = app.Services.CreateScope())
     SeedData.Initialize(db);
 }
 
-app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
