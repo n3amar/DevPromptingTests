@@ -91,9 +91,8 @@ The `GET /api/tasks` endpoint has a performance problem. It hits the database on
 The `GET /api/tasks/by-project/{projectId}` endpoint has a logic bug. It consistently returns more tasks than it should.
 
 **Your task:**
-- Identify what the endpoint is supposed to do
-- Find the bug in the LINQ query
-- Fix it so the endpoint returns only the correct data
+- Identify what the endpoint is supposed to do based on its name and route
+- Find the bug in the LINQ query and fix it
 
 **Done when:**
 - `GET /api/tasks/by-project/1` returns only tasks belonging to project 1

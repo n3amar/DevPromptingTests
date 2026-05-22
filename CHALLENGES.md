@@ -45,19 +45,17 @@ once per task to look up the project name, instead of joining in a single query.
 
 ## Challenge 3 — Find and Fix the Bug
 
-**File:** `DevTestRepo.Api/Controllers/TasksController.cs`, `GetByProject` method
+**File:** `DevTestRepo.Api/Controllers/TasksController.cs` — `GetByProject` method
 
-The `GET /api/tasks/by-project/{projectId}` endpoint has a logic bug.
-It consistently returns more tasks than it should.
+The `GET /api/tasks/by-project/{projectId}` endpoint has a logic bug. It consistently returns more tasks than it should.
 
 **Your task:**
-- Identify what the endpoint is supposed to do
-- Find the bug in the LINQ query
-- Fix it so the endpoint returns only the correct data
+- Identify what the endpoint is supposed to do based on its name and route
+- Find the bug in the LINQ query and fix it
 
 **Done when:**
-- Calling `/api/tasks/by-project/1` returns only tasks belonging to project 1
-- Calling `/api/tasks/by-project/2` returns only tasks belonging to project 2
+- `GET /api/tasks/by-project/1` returns only tasks belonging to project 1
+- `GET /api/tasks/by-project/2` returns only tasks belonging to project 2
 
 ---
 
