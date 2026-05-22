@@ -144,7 +144,7 @@ Before submitting, complete the retrospective in `RETROSPECTIVE_PROMPT.md`.
 3. Save the output as `RETROSPECTIVE.md` in the root of your fork
 4. Commit and push it with your code changes
 
-This is a required part of the submission. The retrospective is how we evaluate your AI tool usage — not just whether the code works.
+The retrospective output also includes two personal artifacts generated from your session — a set of CLAUDE.md rules and a prompting checklist skill tailored to how you specifically worked today. These are yours to keep and use going forward. They are not assessed, but they are a useful signal of self-awareness if you choose to include them.
 
 ---
 

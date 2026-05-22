@@ -50,5 +50,19 @@ Rate my overall LLM usage on a scale of 1-5 for each of the following, with a on
 - **Critical thinking** — how often I questioned or pushed back on your suggestions
 - **Initiative** — how often I went beyond the stated requirement to ask whether the solution was complete or could be improved
 
-Be honest. The reviewer reading this retrospective is evaluating how well I work with AI tools, not just whether the code works.
+---
+
+Now, based specifically on the patterns and weaknesses you observed in this session, generate two additional artifacts I can save to my local Claude Code setup:
+
+## My CLAUDE.md Rules
+Write 4-6 rules for my personal CLAUDE.md file derived directly from mistakes or patterns you observed in this session. These should not be generic best practices — they should be specific to how I actually worked today. For example, if I consistently skipped testing endpoints after changes, one rule should address that. If I gave vague prompts when I had the file open right in front of me, say so.
+
+Format each rule as a short imperative sentence followed by one line explaining why it matters based on what you saw today.
+
+## My Prompting Skill
+Write a Claude Code skill I can save to `.claude/commands/prompting-checklist.md` that I can invoke before submitting any LLM-assisted change. The skill should be a short checklist (5-7 items) personalised to my weak spots from this session — things I actually skipped or did poorly today, not generic advice. Frame each item as a question I ask myself before moving on.
+
+---
+
+Be honest. The reviewer reading this retrospective is evaluating how well I work with AI tools, not just whether the code works. The rules and skill are for my own benefit — the more accurate they are to my actual behaviour today, the more useful they will be.
 ```
